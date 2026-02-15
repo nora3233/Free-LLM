@@ -1,7 +1,7 @@
 # 🚀 Free LLM API Directory
 
 > **The comprehensive, automated list of free LLM APIs and models.**  
-> *Last updated: 2026-02-13*
+> *Last updated: 2026-02-15*
 
 [![Website](https://img.shields.io/badge/Website-free--llm.com-blue?style=for-the-badge)](https://free-llm.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
@@ -36,12 +36,14 @@ These providers offer **truly free** access (no credit card, no trial expiration
 | **[Cohere](https://cohere.com/)** | Models share a common monthly quota. | 20 requests/minute | ✅ |
 | **[GitHub Models](https://github.com/marketplace/models)** | Extremely restrictive limits. Dependent on Copilot subscription tier. | Varies by Copilot Tier | ✅ |
 | **[Google AI Studio](https://aistudio.google.com/)** | Google's prototype platform. Data is used for training outside UK/CH/EEA/EU. | 5-30 RPM | ✅ |
+| **[Google Vertex AI](https://console.cloud.google.com/vertex-ai/model-garden)** | Very stringent payment verification for Google Cloud. | 30-60 RPM | ✅ |
 | **[Groq](https://console.groq.com/)** | LPU Inference Engine. | Varies | ✅ |
 | **[HuggingFace Inference Providers](https://huggingface.co/inference-api)** | Serverless Inference. Limited to models < 10GB. Some popular larger models su... | - | ✅ |
 | **[Mistral (Codestral)](https://codestral.mistral.ai/)** | Currently free to use Codestral model. Monthly subscription based. Phone veri... | 30 requests/minute | ✅ |
 | **[Mistral (La Plateforme)](https://console.mistral.ai/)** | Mistral Experiment plan. Requires opting into data training and phone verific... | 1 request/second | ✅ |
 | **[NVIDIA NIM](https://build.nvidia.com/explore/discover)** | NVIDIA Inference Microservices. Phone verification required. Context window l... | 40 requests/minute | ✅ |
-| **[OpenRouter](https://openrouter.ai/)** | Unified interface for accessing truly free LLMs. Aggregates $0/cost models fr... | Dependent on provider availability | ✅ |
+| **[OpenRouter](https://openrouter.ai/)** | A community-focused router for LLMs. Offers a specific list of truly free mod... | 20 requests/minute | ✅ |
+| **[OVH AI Endpoints](https://endpoints.ai.cloud.ovh.net/)** | OVHcloud's AI Endpoints in Free Beta. Access variety of open source models ho... | 12 requests/minute | ✅ |
 | **[SambaNova](https://cloud.sambanova.ai/)** | Experience the world's fastest inference on SambaNova's SN40L regular Reconfi... | Varies | ✅ |
 | **[Together.AI](https://together.ai/)** | Access specific free research models from ServiceNow and others. Currently ho... | Subject to availability | ✅ |
 
@@ -638,15 +640,15 @@ These providers offer **truly free** access (no credit card, no trial expiration
 
 ### [Google Vertex AI](https://console.cloud.google.com/vertex-ai/model-garden)
 
-**Description:** Google Cloud's enterprise-ready generative AI platform. Model Garden provides access to 130+ foundation models including Llama 3.1 and Gemini, with enterprise-grade safety and security.  
-**Limits:** 60 requests/minute (Llama 3.1 70B)
+**Description:** Very stringent payment verification for Google Cloud.  
+**Limits:** 30-60 RPM
 
 <details>
 <summary><strong>Available Models (3)</strong></summary>
 
-- Llama 3.1 405B Instruct (Maas)
-- Llama 3.1 70B Instruct (Maas)
 - Llama 3.2 90B Vision Instruct
+- Llama 3.1 70B Instruct
+- Llama 3.1 8B Instruct
 
 </details>
 
@@ -993,6 +995,20 @@ These providers offer **truly free** access (no credit card, no trial expiration
 
 ---
 
+### [Nicolas Guichou](https://www.youtube.com/watch?v=Mn-CmHfB5Uk&ab_channel=MightyMachines)
+
+**Description:** OK super !  
+**Limits:** Unknown
+
+<details>
+<summary><strong>Available Models (1)</strong></summary>
+
+- LLAMA4
+
+</details>
+
+---
+
 ### [NLP Cloud](https://nlpcloud.com/home)
 
 **Description:** High performance NLP API based on spaCy, HuggingFace, and custom models. Offers a wide range of models for NER, sentiment analysis, and generation.  
@@ -1091,58 +1107,44 @@ These providers offer **truly free** access (no credit card, no trial expiration
 
 ### [OpenRouter](https://openrouter.ai/)
 
-**Description:** Unified interface for accessing truly free LLMs. Aggregates $0/cost models from various providers including the latest Gemma 3, Qwen 3, and DeepSeek variants.  
-**Limits:** Dependent on provider availability
+**Description:** A community-focused router for LLMs. Offers a specific list of truly free models with shared quotas.  
+**Limits:** 20 requests/minute
 
 <details>
-<summary><strong>Available Models (46)</strong></summary>
+<summary><strong>Available Models (32)</strong></summary>
 
-- z-ai/glm-4.5-air:free
-- upstage/solar-pro-3:free
-- tngtech/tng-r1t-chimera:free
-- tngtech/deepseek-r1t2-chimera:free
-- tngtech/deepseek-r1t-chimera:free
-- qwen/qwen3-next-80b-a3b-instruct:free
-- qwen/qwen3-coder:free
-- qwen/qwen3-4b:free
-- openai/gpt-oss-20b:free
-- openai/gpt-oss-120b:free
-- nvidia/nemotron-nano-9b-v2:free
-- nvidia/nemotron-nano-12b-v2-vl:free
-- nvidia/nemotron-3-nano-30b-a3b:free
-- moonshotai/kimi-k2:free
-- liquid/lfm-2.5-1.2b-thinking:free
-- liquid/lfm-2.5-1.2b-instruct:free
-- google/gemma-3n-e4b-it:free
-- google/gemma-3n-e2b-it:free
-- deepseek/deepseek-r1-0528:free
-- cognitivecomputations/dolphin-mistral-24b-venice-edition:free
-- arcee-ai/trinity-mini:free
-- arcee-ai/trinity-large-preview:free
-- allenai/molmo-2-8b:free
-- Qwen 2.5 VL 7B Instruct
-- Mistral Small 3.1 24B Instruct
-- Llama 3.3 70B Instruct
-- Llama 3.2 3B Instruct
-- Llama 3.1 405B Instruct
-- Hermes 3 Llama 3.1 405B
-- Gemma 3 4B Instruct
-- Gemma 3 27B Instruct
 - Gemma 3 12B Instruct
-- Qwen 3 Coder 480B A35B (Free)
-- Venice Uncensored Dolphin Mistral 24B
-- Google Gemma 3n 2B (Free)
-- DeepSeek R1T2 Chimera (Free)
-- DeepSeek R1 0528 (Free)
-- Google Gemma 3n 4B (Free)
-- Qwen 3 4B (Free)
-- DeepSeek R1T Chimera (Free)
-- Mistral Small 3.1 24B Instruct (Free)
-- Google Gemma 3 4B (Free)
-- Google Gemma 3 12B (Free)
-- Google Gemma 3 27B (Free)
-- Meta Llama 3.3 70B Instruct (Free)
-- Meta Llama 3.2 3B Instruct (Free)
+- Gemma 3 27B Instruct
+- Gemma 3 4B Instruct
+- Hermes 3 Llama 3.1 405B
+- Llama 3.1 405B Instruct
+- Llama 3.2 3B Instruct
+- Llama 3.3 70B Instruct
+- Mistral Small 3.1 24B Instruct
+- Qwen 2.5 VL 7B Instruct
+- allenai/molmo-2-8b:free
+- arcee-ai/trinity-large-preview:free
+- arcee-ai/trinity-mini:free
+- cognitivecomputations/dolphin-mistral-24b-venice-edition:free
+- deepseek/deepseek-r1-0528:free
+- google/gemma-3n-e2b-it:free
+- google/gemma-3n-e4b-it:free
+- liquid/lfm-2.5-1.2b-instruct:free
+- liquid/lfm-2.5-1.2b-thinking:free
+- moonshotai/kimi-k2:free
+- nvidia/nemotron-3-nano-30b-a3b:free
+- nvidia/nemotron-nano-12b-v2-vl:free
+- nvidia/nemotron-nano-9b-v2:free
+- openai/gpt-oss-120b:free
+- openai/gpt-oss-20b:free
+- qwen/qwen3-4b:free
+- qwen/qwen3-coder:free
+- qwen/qwen3-next-80b-a3b-instruct:free
+- tngtech/deepseek-r1t-chimera:free
+- tngtech/deepseek-r1t2-chimera:free
+- tngtech/tng-r1t-chimera:free
+- upstage/solar-pro-3:free
+- z-ai/glm-4.5-air:free
 
 </details>
 
@@ -1185,6 +1187,28 @@ These providers offer **truly free** access (no credit card, no trial expiration
 <summary><strong>Available Models (1)</strong></summary>
 
 - Quasar Alpha
+
+</details>
+
+---
+
+### [OVH AI Endpoints](https://endpoints.ai.cloud.ovh.net/)
+
+**Description:** OVHcloud's AI Endpoints in Free Beta. Access variety of open source models hosted in Europe.  
+**Limits:** 12 requests/minute
+
+<details>
+<summary><strong>Available Models (9)</strong></summary>
+
+- Codestral Mamba 7B v0.1
+- DeepSeek R1 Distill Llama 70B
+- Llama 3.1 70B Instruct
+- Llama 3.1 8B Instruct
+- Llama 3.3 70B Instruct
+- Llava Next Mistral 7B
+- Mistral 7B Instruct v0.3
+- Mistral Nemo 2407
+- Mixtral 8x7B Instruct
 
 </details>
 
@@ -1517,8 +1541,8 @@ These providers offer **truly free** access (no credit card, no trial expiration
 
 ### [Vercel AI Gateway](https://vercel.com/docs/ai-gateway)
 
-**Description:** The AI Gateway for the Vercel ecosystem. Unified API compatibility with OpenAI, Anthropic, Google, and more. Streamlines AI integration in Next.js apps.  
-**Limits:** Depending on downstream provider
+**Description:** Routes to various supported providers.  
+**Limits:** -
 
 *No specific free models listed currently.*
 
