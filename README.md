@@ -303,14 +303,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** The most powerful AI coding assistant for improved codebase understanding. Cody uses Sourcegraph's code graph to provide context-aware answers solely based on your repo.  
 **Limits:** 500 auto-completions/month (deprecated, now higher)
 
-<details>
-<summary><strong>Available Models (3)</strong></summary>
-
-- Anthropic Claude 3.5 Sonnet
-- GPT-4o
-- Mixtral 8x7B
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -545,14 +538,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** Very stringent payment verification for Google Cloud.  
 **Limits:** 30-60 RPM
 
-<details>
-<summary><strong>Available Models (3)</strong></summary>
-
-- Llama 3.2 90B Vision Instruct
-- Llama 3.1 70B Instruct
-- Llama 3.1 8B Instruct
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -779,7 +765,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 ### [Mathpix](https://mathpix.com/)
 
 **Description:** Convert images and PDFs to Markdown, LaTeX, and searchable text with high accuracy. The standard for OCR in scientific and mathematical contexts.  
-**Limits:** Varies
+**Limits:** Paid only
 
 *No specific free models listed currently.*
 
@@ -816,9 +802,10 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Limits:** 30 requests/minute
 
 <details>
-<summary><strong>Available Models (1)</strong></summary>
+<summary><strong>Available Models (2)</strong></summary>
 
-- Codestral
+- Codestral 22B
+- Codestral Mamba
 
 </details>
 
@@ -830,9 +817,12 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Limits:** 1 request/second
 
 <details>
-<summary><strong>Available Models (1)</strong></summary>
+<summary><strong>Available Models (4)</strong></summary>
 
-- Open and Proprietary Mistral models
+- Mistral 7B
+- Mixtral 8x7B
+- Mistral Small
+- Mistral Nemo
 
 </details>
 
@@ -843,7 +833,12 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** The high-performance cloud for developers. Run generative AI models, large-scale batch jobs, and more with instant cold starts and pay-per-second billing.  
 **Limits:** Compute based
 
-*No specific free models listed currently.*
+<details>
+<summary><strong>Available Models (1)</strong></summary>
+
+- Any Open Source Model
+
+</details>
 
 ---
 
@@ -870,14 +865,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** Efficient AI inference studio. Access a wide range of open-source models with low latency and cost-effective pricing.  
 **Limits:** Standard
 
-<details>
-<summary><strong>Available Models (3)</strong></summary>
-
-- Llama 3.1 70B
-- Mistral Large
-- Qwen 2.5
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -916,14 +904,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** AI infrastructure for developers. Offers various open-source models including Llama and Mistral, with a focus on stability and ease of use.  
 **Limits:** Standard
 
-<details>
-<summary><strong>Available Models (3)</strong></summary>
-
-- Llama 3.1 8B Instruct
-- Llama 3.1 70B Instruct
-- Mistral Nemo
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -948,12 +929,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** NVIDIA Inference Microservices. Phone verification required. Context window limited.  
 **Limits:** 40 requests/minute
 
-<details>
-<summary><strong>Available Models (1)</strong></summary>
-
-- Various Open Models
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -980,14 +956,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** The industry leader. Creator of GPT-5 and the o-series reasoning models. GPT-5.2 (Feb 2026) sets the new standard for AGI-level interactions.  
 **Limits:** Limited access to GPT-4o/o4-mini
 
-<details>
-<summary><strong>Available Models (3)</strong></summary>
-
-- OpenAI o4-mini
-- GPT-4.1
-- GPT-4o (Legacy)
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -1020,12 +989,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** Various frontier models in testing. Free access while models are being evaluated.  
 **Limits:** Fair Use
 
-<details>
-<summary><strong>Available Models (1)</strong></summary>
-
-- Horizon Alpha
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -1048,12 +1012,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** Specialized variant focused on reasoning and knowledge representation. Free during testing phase.  
 **Limits:** Fair Use
 
-<details>
-<summary><strong>Available Models (1)</strong></summary>
-
-- Quasar Alpha
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -1122,14 +1081,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** The enterprise AI platform from Alibaba Cloud. Home of the Qwen (Tongyi Qianwen) model family, offering state-of-the-art performance in coding and mathematics.  
 **Limits:** Standard
 
-<details>
-<summary><strong>Available Models (3)</strong></summary>
-
-- Qwen-Max
-- Qwen-Plus
-- Qwen-Turbo
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -1200,17 +1152,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** SambaNova Cloud delivers the world's fastest inference for open-source models like Llama 3.1 405B and Qwen 2.5, powered by the purpose-built SN40L Reconfigurable Dataflow Unit (RDU). It offers lightning-fast speed and a generous free credit for new users.  
 **Limits:** Varies by model
 
-<details>
-<summary><strong>Available Models (6)</strong></summary>
-
-- Llama 3.3 70B Instruct
-- Llama 3.1 405B Instruct
-- Llama 3.1 70B Instruct
-- Llama 3.1 8B Instruct
-- Qwen 2.5 Coder 32B
-- Qwen 2.5 72B Instruct
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -1251,14 +1193,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** European cloud provider offering managed generative AI APIs. Host to Mistral, Llama, and Qwen models with full GDPR compliance and data sovereignty.  
 **Limits:** Standard
 
-<details>
-<summary><strong>Available Models (3)</strong></summary>
-
-- Mistral Large
-- Llama 3.1 70B
-- Llama 3.1 8B
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -1327,12 +1262,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** Ultra-fast inference with sub-50ms latency. Generous free tier for open models.  
 **Limits:** High
 
-<details>
-<summary><strong>Available Models (1)</strong></summary>
-
-- Llama 3 8B Turbo
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -1370,13 +1300,7 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** Leading AI company specializing in DUS (Document Understanding) and Solar LLMs. Solar Pro delivers GPT-4 level performance with remarkable speed and efficiency.  
 **Limits:** Standard
 
-<details>
-<summary><strong>Available Models (2)</strong></summary>
-
-- Solar Pro
-- Solar Mini
-
-</details>
+*No specific free models listed currently.*
 
 ---
 
@@ -1385,7 +1309,14 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** Privacy-first AI inference. Venice guarantees 100% privacy with no data logging, running open weights models on decentralized GPU nodes.  
 **Limits:** Daily limits for free tier
 
-*No specific free models listed currently.*
+<details>
+<summary><strong>Available Models (3)</strong></summary>
+
+- Llama 3.1 405B
+- Dolphin Mixtral
+- Stable Diffusion 3
+
+</details>
 
 ---
 
@@ -1403,7 +1334,12 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Description:** The AI SDK for the Vercel ecosystem. Unified API compatibility with OpenAI, Anthropic, Google, and more. Streamlines AI integration in Next.js apps.  
 **Limits:** Depending on downstream provider
 
-*No specific free models listed currently.*
+<details>
+<summary><strong>Available Models (1)</strong></summary>
+
+- Unified Model Access
+
+</details>
 
 ---
 
