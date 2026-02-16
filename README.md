@@ -1,7 +1,7 @@
 # 🚀 Free LLM API Directory
 
 > **The comprehensive, automated list of free LLM APIs and models.**  
-> *Last updated: 2026-02-15*
+> *Last updated: 2026-02-16*
 
 [![Website](https://img.shields.io/badge/Website-free--llm.com-blue?style=for-the-badge)](https://free-llm.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
@@ -30,28 +30,26 @@ These providers offer **truly free** access (no credit card, no trial expiration
 
 | Provider | Description | Limits | Verified |
 | :--- | :--- | :--- | :---: |
-| **[Cerebras](https://cloud.cerebras.ai/)** | Instant inference. | 10-30 RPM | ✅ |
+| **[Cerebras](https://cerebras.ai/inference)** | Cerebras Systems offers the world's fastest AI inference service, powered by ... | 30 RPM | ✅ |
 | **[Chutes](https://chutes.ai)** | Decentralized, crypto-based compute network. Offers free access to various op... | Distributed | ✅ |
 | **[Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/)** | 10,000 neurons/day (~ 100-500 requests). | - | ✅ |
 | **[Cohere](https://cohere.com/)** | Models share a common monthly quota. | 20 requests/minute | ✅ |
 | **[GitHub Models](https://github.com/marketplace/models)** | Extremely restrictive limits. Dependent on Copilot subscription tier. | Varies by Copilot Tier | ✅ |
-| **[Google AI Studio](https://aistudio.google.com/)** | Google's prototype platform. Data is used for training outside UK/CH/EEA/EU. | 5-30 RPM | ✅ |
+| **[Google AI Studio](https://aistudio.google.com/)** | Google AI Studio is a web-based prototyping environment for developers to exp... | 2-15 RPM | ✅ |
 | **[Google Vertex AI](https://console.cloud.google.com/vertex-ai/model-garden)** | Very stringent payment verification for Google Cloud. | 30-60 RPM | ✅ |
 | **[Groq](https://console.groq.com/)** | LPU Inference Engine. | Varies | ✅ |
-| **[HuggingFace Inference Providers](https://huggingface.co/inference-api)** | Serverless Inference. Limited to models < 10GB. Some popular larger models su... | - | ✅ |
+| **[Hugging Face Inference](https://huggingface.co/inference-api/serverless)** | The Hugging Face Serverless Inference API allows you to access over 100,000 p... | 300 Requests / hour | ✅ |
 | **[Mistral (Codestral)](https://codestral.mistral.ai/)** | Currently free to use Codestral model. Monthly subscription based. Phone veri... | 30 requests/minute | ✅ |
 | **[Mistral (La Plateforme)](https://console.mistral.ai/)** | Mistral Experiment plan. Requires opting into data training and phone verific... | 1 request/second | ✅ |
 | **[NVIDIA NIM](https://build.nvidia.com/explore/discover)** | NVIDIA Inference Microservices. Phone verification required. Context window l... | 40 requests/minute | ✅ |
 | **[OpenRouter](https://openrouter.ai/)** | A community-focused router for LLMs. Offers a specific list of truly free mod... | 20 requests/minute | ✅ |
-| **[OVH AI Endpoints](https://endpoints.ai.cloud.ovh.net/)** | OVHcloud's AI Endpoints in Free Beta. Access variety of open source models ho... | 12 requests/minute | ✅ |
-| **[SambaNova](https://cloud.sambanova.ai/)** | Experience the world's fastest inference on SambaNova's SN40L regular Reconfi... | Varies | ✅ |
 | **[Together.AI](https://together.ai/)** | Access specific free research models from ServiceNow and others. Currently ho... | Subject to availability | ✅ |
 
 ---
 
 ## 📋 Full Provider List
 
-### [AI21 Labs](https://studio.ai21.com/)
+### [AI21 Labs](https://docs.ai21.com/)
 
 **Description:** Creators of the Jamba model family, the world's first production-grade Mamba-based LLMs. Offers massive context windows with high throughput.  
 **Limits:** Standard
@@ -157,13 +155,20 @@ These providers offer **truly free** access (no credit card, no trial expiration
 
 ### [BentoML](https://www.bentoml.com/)
 
-**Description:** The unified framework for building AI applications. Package models into standard artifacts and deploy them anywhere (Docker, Kubernetes, AWS Lambda) with ease.  
+**Description:** An Inference Platform built for speed and control, enabling deployment of any AI/ML model anywhere with tailored optimization, efficient scaling, and streamlined operations. It offers a complete solution to simplify inference infrastructure while giving full control over deployments.  
 **Limits:** Hardware dependent
 
 <details>
-<summary><strong>Available Models (1)</strong></summary>
+<summary><strong>Available Models (8)</strong></summary>
 
 - OpenLLM
+- Llama 4
+- DeepSeek
+- Ling/Ring
+- Flux
+- Qwen
+- GPT-OSS
+- Custom Models
 
 </details>
 
@@ -198,20 +203,17 @@ These providers offer **truly free** access (no credit card, no trial expiration
 
 ---
 
-### [Cerebras](https://cloud.cerebras.ai/)
+### [Cerebras](https://cerebras.ai/inference)
 
-**Description:** Instant inference.  
-**Limits:** 10-30 RPM
+**Description:** Cerebras Systems offers the world's fastest AI inference service, powered by the Wafer-Scale Engine (WSE-3). It delivers instant speed for Llama and other open-source models, making it ideal for real-time applications and complex reasoning tasks.  
+**Limits:** 30 RPM
 
 <details>
-<summary><strong>Available Models (6)</strong></summary>
+<summary><strong>Available Models (3)</strong></summary>
 
-- gpt-oss-120b
-- Qwen 3 235B A22B Instruct
 - Llama 3.3 70B
-- Qwen 3 32B
 - Llama 3.1 8B
-- Z.ai GLM-4.6
+- Llama 3.1 70B
 
 </details>
 
@@ -314,10 +316,11 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Limits:** Fair use
 
 <details>
-<summary><strong>Available Models (2)</strong></summary>
+<summary><strong>Available Models (3)</strong></summary>
 
 - Codeium Base
 - Codeium Chat
+- SWE-1.5
 
 </details>
 
@@ -604,19 +607,17 @@ These providers offer **truly free** access (no credit card, no trial expiration
 
 ### [Google AI Studio](https://aistudio.google.com/)
 
-**Description:** Google's prototype platform. Data is used for training outside UK/CH/EEA/EU.  
-**Limits:** 5-30 RPM
+**Description:** Google AI Studio is a web-based prototyping environment for developers to experiment with Gemini models. It offers a generous free tier that includes access to the latest Gemini 1.5 and 2.0 models, including Flash and Pro versions. It is designed for fast iteration and development, providing a seamless path from prototype to production with the Gemini API.  
+**Limits:** 2-15 RPM
 
 <details>
-<summary><strong>Available Models (7)</strong></summary>
+<summary><strong>Available Models (5)</strong></summary>
 
-- Gemini 3 Flash
-- Gemini 2.5 Flash
-- Gemini 2.5 Flash-Lite
-- Gemma 3 27B Instruct
-- Gemma 3 12B Instruct
-- Gemma 3 4B Instruct
-- Gemma 3 1B Instruct
+- Gemini 2.0 Flash
+- Gemini 2.0 Flash-Lite
+- Gemini 1.5 Flash
+- Gemini 1.5 Pro
+- Gemini 1.5 Flash-8B
 
 </details>
 
@@ -672,10 +673,20 @@ These providers offer **truly free** access (no credit card, no trial expiration
 
 ### [Grok (xAI)](https://x.ai/)
 
-**Description:** Elon Musk's AI with real-time knowledge and witty personality. Access via X Premium.  
-**Limits:** None
+**Description:** xAI, founded by Elon Musk, offers the Grok series of models. Known for their real-time access to X (Twitter) data, spicy personality, and strong reasoning capabilities. The latest Grok 4 and 4.1 models offer state-of-the-art performance in reasoning, coding, and multimodal tasks.  
+**Limits:** Dependent on credits
 
-*No specific free models listed currently.*
+<details>
+<summary><strong>Available Models (6)</strong></summary>
+
+- Grok 4
+- Grok 4.1
+- Grok 4.1 Fast
+- Grok 4 Fast
+- Grok 2 (1212)
+- Grok 2 Vision (1212)
+
+</details>
 
 ---
 
@@ -690,34 +701,38 @@ These providers offer **truly free** access (no credit card, no trial expiration
 - Allam 2 7B
 - Llama 3.1 8B
 - Llama 3.3 70B
-- Llama 4 Maverick 17B 128E Instruct
-- Llama 4 Scout Instruct
+- Llama 4 Maverick 17B
+- Llama 4 Scout
 - Whisper Large v3
 - Whisper Large v3 Turbo
-- groq/compound
-- groq/compound-mini
-- meta-llama/llama-guard-4-12b
-- moonshotai/kimi-k2-instruct
-- moonshotai/kimi-k2-instruct-0905
-- openai/gpt-oss-120b
-- openai/gpt-oss-20b
-- openai/gpt-oss-safeguard-20b
-- qwen/qwen3-32b
+- Groq Compound
+- Groq Compound Mini
+- Llama Guard 4 12B
+- Moonshot Kimi K2
+- Moonshot Kimi K2 0905
+- GPT-OSS 120B
+- GPT-OSS 20B
+- GPT-OSS Safeguard 20B
+- Qwen3 32B
 
 </details>
 
 ---
 
-### [HuggingFace Inference Providers](https://huggingface.co/inference-api)
+### [Hugging Face Inference](https://huggingface.co/inference-api/serverless)
 
-**Description:** Serverless Inference. Limited to models < 10GB. Some popular larger models supported.  
-**Limits:** -
+**Description:** The Hugging Face Serverless Inference API allows you to access over 100,000 publicly available machine learning models. It is designed for prototyping and testing, allowing you to run inference on models without managing infrastructure. While not for heavy production, it offers a generous free tier for experimentation.  
+**Limits:** 300 Requests / hour
 
 <details>
-<summary><strong>Available Models (2)</strong></summary>
+<summary><strong>Available Models (6)</strong></summary>
 
-- Various open models across supported providers
-- Various Open Models
+- Llama 3.1 8B Instruct
+- Mistral 7B Instruct v0.3
+- Phi-3 Mini 4k Instruct
+- Qwen2.5 7B Instruct
+- Gemma 2 9B Instruct
+- Nous Hermes 2 Mixtral 8x7B
 
 </details>
 
@@ -729,29 +744,8 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Limits:** Standard
 
 <details>
-<summary><strong>Available Models (24)</strong></summary>
+<summary><strong>Available Models (3)</strong></summary>
 
-- qwen/qwen3-next-80b-a3b-thinking
-- qwen/qwen3-next-80b-a3b-instruct
-- qwen/qwen3-coder-480b-a35b-instruct
-- qwen/qwen3-235b-a22b-instruct-2507
-- qwen/qwen3-235b-a22b
-- openai/gpt-oss-20b
-- openai/gpt-oss-120b-turbo
-- openai/gpt-oss-120b
-- deepseek-ai/deepseek-r1-0528
-- Qwen2.5 VL 7B Instruct
-- Qwen2.5 VL 72B Instruct
-- Qwen2.5 Coder 32B Instruct
-- Qwen2.5 72B Instruct
-- Qwen QwQ 32B
-- Pixtral 12B (2409)
-- Llama 3.3 70B Instruct
-- Llama 3.2 3B Instruct
-- Llama 3.1 8B Instruct
-- Llama 3.1 70B Instruct
-- Llama 3.1 405B Base
-- DeepSeek V3 0324
 - Llama 3.1 405B Instruct
 - DeepSeek V3
 - Qwen 2.5 72B
@@ -795,11 +789,12 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Limits:** Hardware dependent
 
 <details>
-<summary><strong>Available Models (3)</strong></summary>
+<summary><strong>Available Models (4)</strong></summary>
 
 - Llama 3 (Local)
 - Mistral (Local)
-- Gemma (Local)
+- Gemma 3 (Local)
+- GGUF (Local)
 
 </details>
 
@@ -943,9 +938,8 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Limits:** 1 request/second
 
 <details>
-<summary><strong>Available Models (2)</strong></summary>
+<summary><strong>Available Models (1)</strong></summary>
 
-- Codestral
 - Open and Proprietary Mistral models
 
 </details>
@@ -1194,21 +1188,19 @@ These providers offer **truly free** access (no credit card, no trial expiration
 
 ### [OVH AI Endpoints](https://endpoints.ai.cloud.ovh.net/)
 
-**Description:** OVHcloud's AI Endpoints in Free Beta. Access variety of open source models hosted in Europe.  
-**Limits:** 12 requests/minute
+**Description:** OVHcloud's AI Endpoints in Beta. Access open source models hosted in Europe including Qwen3Guard, Audio, and Image generation models.  
+**Limits:** 2 RPM (Anonymous) / 400 RPM (Auth)
 
 <details>
-<summary><strong>Available Models (9)</strong></summary>
+<summary><strong>Available Models (7)</strong></summary>
 
-- Codestral Mamba 7B v0.1
-- DeepSeek R1 Distill Llama 70B
-- Llama 3.1 70B Instruct
-- Llama 3.1 8B Instruct
-- Llama 3.3 70B Instruct
-- Llava Next Mistral 7B
-- Mistral 7B Instruct v0.3
-- Mistral Nemo 2407
-- Mixtral 8x7B Instruct
+- Qwen3Guard-Gen-0.6B (Beta)
+- Qwen3Guard-Gen-8B (Beta)
+- stable-diffusion-xl-base-v10
+- nvr-tts-es-es
+- nvr-tts-de-de
+- nvr-tts-en-us
+- nvr-tts-it-it
 
 </details>
 
@@ -1332,17 +1324,20 @@ These providers offer **truly free** access (no credit card, no trial expiration
 
 ---
 
-### [SambaNova](https://cloud.sambanova.ai/)
+### [SambaNova Cloud](https://cloud.sambanova.ai/)
 
-**Description:** Experience the world's fastest inference on SambaNova's SN40L regular Reconfigurable Dataflow Unit (RDU). Running Llama 3.1 405B at lightning speeds.  
-**Limits:** Varies
+**Description:** SambaNova Cloud delivers the world's fastest inference for open-source models like Llama 3.1 405B and Qwen 2.5, powered by the purpose-built SN40L Reconfigurable Dataflow Unit (RDU). It offers lightning-fast speed and a generous free credit for new users.  
+**Limits:** Varies by model
 
 <details>
-<summary><strong>Available Models (3)</strong></summary>
+<summary><strong>Available Models (6)</strong></summary>
 
+- Llama 3.3 70B Instruct
 - Llama 3.1 405B Instruct
 - Llama 3.1 70B Instruct
 - Llama 3.1 8B Instruct
+- Qwen 2.5 Coder 32B
+- Qwen 2.5 72B Instruct
 
 </details>
 
@@ -1386,24 +1381,8 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Limits:** Standard
 
 <details>
-<summary><strong>Available Models (19)</strong></summary>
+<summary><strong>Available Models (3)</strong></summary>
 
-- voxtral-small-24b-2507
-- qwen3-embedding-8b
-- qwen3-coder-30b-a3b-instruct
-- qwen3-235b-a22b-instruct-2507
-- mistral-small-3.2-24b-instruct-2506
-- holo2-30b-a3b
-- gpt-oss-120b
-- devstral-2-123b-instruct-2512
-- Whisper Large v3
-- Pixtral 12B (2409)
-- Mistral Nemo 2407
-- Llama 3.3 70B Instruct
-- Llama 3.1 8B Instruct
-- Gemma 3 27B Instruct
-- DeepSeek R1 Distill Llama 70B
-- BGE-Multilingual-Gemma2
 - Mistral Large
 - Llama 3.1 70B
 - Llama 3.1 8B
