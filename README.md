@@ -369,22 +369,6 @@ These providers offer **truly free** access (no credit card, no trial expiration
 
 ---
 
-### [DeepSeek](https://platform.deepseek.com/)
-
-**Description:** The open-source giant slayer. DeepSeek-V3 and R1 deliver GPT-4 level performance at a fraction of the cost. specialized in coding and complex reasoning with massive context windows.  
-**Limits:** Flexible
-
-<details>
-<summary><strong>Available Models (3)</strong></summary>
-
-- DeepSeek-R1
-- DeepSeek-V3
-- DeepSeek-Coder-V2
-
-</details>
-
----
-
 ### [DeepSeek V3 Base](https://openrouter.ai/)
 
 **Description:** For technical domain tasks. Free tier available on OpenRouter with 50+ requests/day.  
