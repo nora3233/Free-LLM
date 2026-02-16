@@ -1105,40 +1105,19 @@ These providers offer **truly free** access (no credit card, no trial expiration
 **Limits:** 20 requests/minute
 
 <details>
-<summary><strong>Available Models (32)</strong></summary>
+<summary><strong>Available Models (11)</strong></summary>
 
-- Gemma 3 12B Instruct
-- Gemma 3 27B Instruct
-- Gemma 3 4B Instruct
-- Hermes 3 Llama 3.1 405B
-- Llama 3.1 405B Instruct
-- Llama 3.2 3B Instruct
-- Llama 3.3 70B Instruct
-- Mistral Small 3.1 24B Instruct
-- Qwen 2.5 VL 7B Instruct
-- allenai/molmo-2-8b:free
-- arcee-ai/trinity-large-preview:free
-- arcee-ai/trinity-mini:free
-- cognitivecomputations/dolphin-mistral-24b-venice-edition:free
-- deepseek/deepseek-r1-0528:free
-- google/gemma-3n-e2b-it:free
-- google/gemma-3n-e4b-it:free
-- liquid/lfm-2.5-1.2b-instruct:free
-- liquid/lfm-2.5-1.2b-thinking:free
-- moonshotai/kimi-k2:free
-- nvidia/nemotron-3-nano-30b-a3b:free
-- nvidia/nemotron-nano-12b-v2-vl:free
-- nvidia/nemotron-nano-9b-v2:free
-- openai/gpt-oss-120b:free
-- openai/gpt-oss-20b:free
-- qwen/qwen3-4b:free
-- qwen/qwen3-coder:free
-- qwen/qwen3-next-80b-a3b-instruct:free
-- tngtech/deepseek-r1t-chimera:free
-- tngtech/deepseek-r1t2-chimera:free
-- tngtech/tng-r1t-chimera:free
-- upstage/solar-pro-3:free
-- z-ai/glm-4.5-air:free
+- Google: Gemini 2.0 Flash (free)
+- Google: Gemini 2.0 Pro (free)
+- Meta: Llama 3.3 70B Instruct (free)
+- NVIDIA: Llama 3.1 Nemotron 70B (free)
+- DeepSeek: R1 (free)
+- DeepSeek: R1 Distill Llama 70B (free)
+- Mistral: Small 3 (free)
+- Qwen 2.5 7B Instruct (free)
+- Qwen 2.5 VL 72B Instruct (free)
+- Microsoft: Phi-3 Medium (free)
+- Microsoft: Phi-3 Mini (free)
 
 </details>
 
